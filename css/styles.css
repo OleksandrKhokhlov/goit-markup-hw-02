@@ -1,0 +1,111 @@
+:root {
+	--primary-brand: #4d5ae5;
+	--pressed-state: #404bbf;
+	--dark: #2e2f42;
+	--success: #31d0aa;
+	--text: #434455;
+	--subtle-text: #8e8f99;
+	--accent: #e7e9fc;
+	--light: #f4f4fd;
+	--background-color-primary: #ffffff;
+}
+body {
+	color: var(--text);
+	background-color: var(--background-color-primary);
+	font-family: "Roboto", sans-serif;
+}
+.list {
+	list-style: none;
+}
+.link {
+	text-decoration: none;
+}
+/* header */
+.logo {
+	color: var(--dark);
+	text-transform: uppercase;
+}
+.site-nav .current {
+	color: var(--pressed-state);
+}
+.accent-logo {
+	color: var(--primary-brand);
+}
+.link-nav {
+	color: var(--dark);
+}
+.link-nav:hover,
+.link-nav:focus {
+	color: var(--pressed-state);
+}
+.contact-link {
+	color: var(--text);
+}
+.contact-link:hover,
+.contact-link:focus {
+	color: var(--pressed-state);
+}
+/* hero */
+.hero {
+	background-color: #2e2f42;
+}
+.hero-title {
+	color: var(--background-color-primary);
+}
+.hero-btn {
+	color: var(--background-color-primary);
+	background: #4d5ae5;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+	background-color: var(--pressed-state);
+}
+/* advantages section */
+.advantages-title {
+	color: var(--dark);
+}
+.employment-title {
+	color: var(--dark);
+}
+/* team section */
+.team {
+	background-color: var(--light);
+}
+.team-item {
+	background-color: var(--background-color-primary);
+}
+.team-title {
+	color: var(--dark);
+}
+.team-player {
+	color: var(--dark);
+}
+/* footer */
+.footer {
+	background-color: var(--dark);
+}
+.footer-logo {
+	color: var(--light);
+	text-transform: uppercase;
+}
+.footer-text {
+	color: var(--accent);
+}
+/* portfolio.html */
+.filtr-btn {
+	color: var(--primary-brand);
+	background-color: var(--light);
+	border: 1px solid var(--accent);
+	border-radius: 4px;
+}
+.filtr-btn:hover,
+.filtr-btn:focus {
+	color: var(--background-color-primary);
+	background-color: var(--pressed-state);
+	cursor: pointer;
+}
+.portfolio-title {
+	color: var(--dark);
+}
