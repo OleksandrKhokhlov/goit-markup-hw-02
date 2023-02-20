@@ -161,8 +161,7 @@ body {
 .filtr-btn:focus {
 	color: var(--background-color-primary);
 	background-color: var(--pressed-state);
-	border: 1px solid var(--pressed-state);
-	
+	border-color: var(--pressed-state);
 }
 .portfolio-title {
 	font-weight: 500;
